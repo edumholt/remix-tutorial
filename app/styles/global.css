@@ -10,6 +10,7 @@
   --color-border: hsl(0, 0%, 82%);
   --font-body: -apple-system, "Segoe UI", Helvetica Neue, Helvetica, Roboto,
     Arial, sans-serif, system-ui, "Apple Color Emoji", "Segoe UI Emoji";
+  --color-footer: #777;
 }
 
 html {
@@ -152,6 +153,7 @@ input:where([type="search"]) {
   display: flex;
   justify-content: center;
   align-items: center;
+  color: var(--color-footer);
 }
 
 .remix__page {
