@@ -1,4 +1,4 @@
-# Welcome to Remix!
+# Remix Joke Tutorial
 
 - [Remix Docs](https://remix.run/docs)
 
