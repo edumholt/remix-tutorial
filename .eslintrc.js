@@ -2,21 +2,21 @@ module.exports = {
   env: {
     browser: true,
     es2021: true,
-    node: true,
+    node: true
   },
   extends: [
     'eslint:recommended',
     'plugin:react/recommended',
     'plugin:@typescript-eslint/recommended',
-    'plugin:react/jsx-runtime',
+    'plugin:react/jsx-runtime'
   ],
   parser: '@typescript-eslint/parser',
   parserOptions: {
     ecmaFeatures: {
-      jsx: true,
+      jsx: true
     },
     ecmaVersion: 13,
-    sourceType: 'module',
+    sourceType: 'module'
   },
   plugins: ['react', '@typescript-eslint', 'node', 'prettier'],
   rules: {
@@ -24,6 +24,7 @@ module.exports = {
     'linebreak-style': ['warn', 'unix'],
     quotes: ['warn', 'single'],
     semi: ['warn', 'always'],
-    'prettier/prettier': ['warn', { singleQuote: true, trailingComma: false }],
-  },
+    'eol-last': ['error', 'always'],
+    'prettier/prettier': ['warn', { singleQuote: true, trailingComma: 'none' }]
+  }
 };
