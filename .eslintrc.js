@@ -21,10 +21,9 @@ module.exports = {
   plugins: ['react', '@typescript-eslint', 'node', 'prettier'],
   rules: {
     indent: ['error', 2],
-    'linebreak-style': ['warn', 'unix'],
     quotes: ['warn', 'single'],
     semi: ['warn', 'always'],
     'eol-last': ['error', 'always'],
-    'prettier/prettier': ['warn', { singleQuote: true, trailingComma: 'none' }]
+    'prettier/prettier': ['warn', { singleQuote: true, trailingComma: 'none', endOfLine: 'auto' }]
   }
 };
