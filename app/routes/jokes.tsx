@@ -2,7 +2,7 @@ import type { LinksFunction, LoaderFunction } from 'remix';
 import { Outlet, Link, useLoaderData } from 'remix';
 
 import { db } from '~/utils/db.server';
-import stylesUrl from '../styles/jokes.css';
+import stylesUrl from '~/styles/jokes.css';
 
 export const links: LinksFunction = () => {
   return [
