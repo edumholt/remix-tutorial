@@ -3,7 +3,7 @@ import { Outlet } from 'remix';
 export default function JokesRoute() {
   return (
     <div>
-      JOKES
+      <h1>J🤪KES Outside</h1>
       <main>
         <Outlet />
       </main>
