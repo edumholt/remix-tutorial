@@ -25,5 +25,10 @@ module.exports = {
     semi: ['warn', 'always'],
     'eol-last': ['error', 'always'],
     'prettier/prettier': ['warn', { singleQuote: true, trailingComma: 'none', endOfLine: 'auto' }]
+  },
+  settings: {
+    react: {
+      version: 'detect'
+    }
   }
 };
